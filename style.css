@@ -1,5 +1,7 @@
-*{
-    font-family: 'Roboto', sans-serif;
+
+/* Font family for entire page */
+*{    
+    font-family: 'Roboto', sans-serif;   
 }
 
 .navbar, .header{
@@ -7,10 +9,21 @@
     color:white;
 }
 
+
+
 .navbar h1{
     font-size: 24px;
     color: #F9FAF8;
 }
+
+.navbar ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    gap:15px;
+    align-items: flex-start;
+}
+
 
 .header h1{
     font-size: 48px;
